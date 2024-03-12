@@ -1,0 +1,13 @@
+.app__error{
+    width: 100%;
+    max-width: 500px;
+    border-radius: 0.8em;
+    background-color: #062226;
+    padding: 4em 4em 0em 4em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5em;
+    box-shadow: 0.3em 0.3em 0.5em rgba(11, 73, 48, 0.572);
+    font-size: 1.5rem;
+    text-align:center
+}

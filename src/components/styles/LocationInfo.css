@@ -1,0 +1,36 @@
+.location{
+    width: 100%;
+    max-width: 500px;
+    border-radius: 0.8em;
+    background-color: #062226;
+    padding: 1.5em 2em 2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+    box-shadow: 0.3em 0.3em 0.5em rgba(11, 73, 48, 0.572);
+}
+.location__name{
+    text-align: center;
+    color: green;
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-bottom: 0.7em;
+}
+.location__list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+}
+.location__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+}
+.location__label{
+    font-weight: 400;
+    color: #aaa;
+}
+.location__value{
+    font-weight: 500;
+}
